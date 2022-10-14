@@ -13,7 +13,7 @@ const yorumSayfasi=function(req, res) {
 const mekanBilgisi=function(req, res) {
     const generateAddress = {
         "Starbucks": " İyaş Market Girişi",
-        "Burger King" : "İyaş Avm Girişi",
+        "Burç Cafe" : "İyaş Avm Girişi",
         "Hook Cafe": "Otogar Karşısı"
     }
     console.log( generateAddress[req.params.title])
