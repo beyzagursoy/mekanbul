@@ -31,7 +31,7 @@ const anaSayfa = function (req, res, next) {
 const mekanBilgisi = function (req, res, next) {
   res.render("mekanbilgisi", {
     baslik: "Mekan Bilgisi",
-    mekanBaslik: "Starbuckss",
+    mekanBaslik: "Starbucks",
     mekanDetay: {
       ad: "Starbucks",
       puan: "4",
