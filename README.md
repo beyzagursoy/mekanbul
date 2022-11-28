@@ -11,8 +11,8 @@
 
 # MekanBul REST API Testleri
 
-[1.Thunder API]
+## 1. Thunder API
 ![1](/images/thunderAPI.png)
 
-[1. test.js]
-![1](/images/test.png)
+## 2. test.js
+![2](/images/test.png)
