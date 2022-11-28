@@ -1,5 +1,5 @@
-var express = require("express");
-var router = express.Router();
+var express=require("express");
+var router=express.Router();
 var ctrlMekanlar = require("../controllers/mekanlar");
 var ctrlYorumlar = require("../controllers/yorumlar");
 
@@ -24,5 +24,4 @@ router
 .put(ctrlYorumlar.yorumGuncelle)
 .delete(ctrlYorumlar.yorumSil);
 
-//router'ı dış dünyaya açmamızı sağlar
-module.exports=router;
+module.exports=router; //routeri dış dünyaya açıyoruz
